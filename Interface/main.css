@@ -1,0 +1,58 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: #fff(156, 149, 149);
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+#nome-bikes{
+    color:#febe01;
+}
+.links-compras{
+    display: inline-block;
+    text-decoration: none;
+    background: #febe01;
+    color: #332200;
+    padding: 10px;
+    border-radius: 10px;
+}
+#menu{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    color:#332200;
+    background: #febe01;
+    gap: 30px;
+    padding: 10px;
+}
+#menu a{
+     color:#332200;
+}
+.card{
+    background: #111;
+    color: #fff;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+span{
+    color: #febe01;
+}
+p{
+    color: #b2b2b2 ;
+}
+footer{
+    background: #b2b2b2;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}

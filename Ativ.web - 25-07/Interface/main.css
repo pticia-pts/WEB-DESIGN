@@ -1,0 +1,144 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding:0;
+}
+header{
+    background: linear-gradient(to left,#7292A6, #224459 ) ;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+ width: 100%;
+}
+
+.container{
+    display: flex;
+    gap:15px;
+}
+
+aside{
+    background-color:#c4d0d9;
+    color: #224459;
+    padding:15px;
+}
+
+aside ul{
+    list-style-type: none;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 300;
+    color:#32738b;
+}
+
+main{
+    display: grid;
+    grid-template-areas:
+      "evento programacao programacao amanda"
+      "listas inscricao larissa henrique"
+      "natalia inscricao organizacao organizacao";
+
+      gap:15px;
+}
+
+section{
+    padding: 15px;
+}
+.evento{
+    grid-area: evento;
+    background-color: #dddd;
+}
+.programacao{
+    grid-area: programacao;
+    background-color: #dddd;
+}
+.amanda{
+    grid-area: amanda;
+    padding: 0px;
+    position: relative;
+}
+.amanda img{
+    width: 40vh;
+}
+.listas{
+    grid-area:listas;
+    background-color: #dddd;
+    padding-left: 40px;
+}
+.natalia{
+     grid-area:natalia;
+     padding: 0px;
+     position: relative;
+
+}
+.henrique{
+     grid-area:henrique;
+     padding: 0px;
+     position: relative;
+
+}
+.henrique img{
+    height: 28vh;
+}
+.larissa{
+     grid-area:larissa;
+    padding: 0px;
+    position: relative;
+
+}
+.larissa img{
+    height: 28vh;
+}
+.inscricao{
+     grid-area:inscricao;
+     background-color: #dddd;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+
+}
+.inscricao input {
+    padding:10px;
+}
+.inscricao-btn{
+   background-color: #202025;
+   color:#3e4f5b;
+}
+
+.organizacao{
+     grid-area:organizacao;
+     background-color: #dddd;
+
+    padding-left: 40px;
+}
+table{
+  border-collapse: collapse;
+}
+td{
+    border:1px solid white;
+    padding: 10px;
+}
+
+.img-nome{
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding:20px;
+    position: absolute;
+    top: 30%;
+    display:block;
+    text-align: center;
+}
+
+footer {
+    padding:100px;
+    background-color: #214458;
+    text-align: center;
+    color:white
+}

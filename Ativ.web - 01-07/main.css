@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+section ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+section li{
+    background-color: #5f9ea0;
+    padding:10px;
+    margin:5px;
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f1881d;
+}
+a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+.drop-hover{
+    position: relative;
+}
+.drop-hover .drop{
+    position: absolute;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    padding: 0 auto;
+    visibility: hidden;
+    transition: 0.4s;
+    opacity: 0;
+}
+.drop li{
+    background-color: #5f9ea0;  
+}
+.drop-hover:hover .drop{
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contatos.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Automóveis e <span id="nome-bikes">Bikes</span></a></h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="sobre-nos.html">Sobre nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="revenda-automoveis.html">Revenda de Automóveis</a></li>
+                <li><a href="contatos.html">Contato</a></li>
+                <li><a href="lojas.html">Lojas</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Precisa de informações sobre os orçamentos?</h1>
+            <h2>Complete o formulário abaixo e entre em contato conosco!</h2>
+            <div>
+                <form action="contatos.html">
+                    <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    <input type="number" id="celular" name="celular" placeholder="Celular" required>
+                    <label for="carros">Escolha o automóvel:</label>
+                    <select name="carros" id="carros">
+                        <option value="Civic">Civic</option>
+                        <option value="Fiat Mobi">Mobi</option>
+                        <option value="Fiat Toro">Toro</option>
+                        <option value="Jeep">Jeep</option>
+                        <option value="Ferrari">Ferrari</option>
+                        <option value="lamborghini">Lamborghini</option>
+                        <option value="Dolphin">Dolphin</option>
+                    </select>
+                    <textarea name="mensagem" id="mensagem" placeholder="Solicitação detalhada"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <img src="img/contatos.png" alt="imagem de um carro preto">
+            </div>
+        </section>
+        
+    </main>
+    <footer>2025, Automóveis e Bikes. Todos os direitos reservados.</footer>
+</body>
+</html>
